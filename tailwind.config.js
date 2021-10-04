@@ -13,6 +13,9 @@ module.exports = {
           },
         },
       }),
+      colors: {
+        'ma-color': '#D946EF',
+      },
     },
     container: {
       center: true,
