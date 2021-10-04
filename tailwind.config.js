@@ -17,6 +17,9 @@ module.exports = {
         'ma-color': '#D946EF',
       },
     },
+    fontFamily: {
+      'ma-popo': ['Helvetica', 'Arial', 'sans-serif'],
+    },
     container: {
       center: true,
     },
