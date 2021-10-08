@@ -22,7 +22,7 @@ module.exports = {
       'ma-popo': ['Helvetica', 'Arial', 'sans-serif'],
     },
     screens: {
-      'phone': '640px',
+      phone: '640px',
       // => @media (min-width: 640px) { ... }
     },
     container: {
