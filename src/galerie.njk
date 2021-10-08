@@ -11,3 +11,30 @@ title: Galerie
         Contenu dialogue
     </dialog>
 </div>
+
+<div x-data="{imageUrl:null}">
+    <ul>
+        <li><img src="/static/images/animals-1.jpeg" alt="animal-1" @click="imageUrl = '/static/images/animals-1.jpeg';"></li>
+
+        <li><img src="/static/images/animals-2.jpeg" alt="animal-2" @click="imageUrl = '/static/images/animals-2.jpeg';"></li>
+
+        <li><img src="/static/images/animals-3.jpeg" alt="animal-3" @click="imageUrl = '/src/static/images/animals-3.jpeg';"></li>
+
+        <li><img src="/static/images/animals-4.jpeg" alt="animal-4" @click="imageUrl = '/src/static/images/animals-4.jpeg';"></li>
+
+        <li><img src="/static/images/animals-5.jpeg" alt="animal-5" @click="imageUrl = '/src/static/images/animals-5.jpeg';"></li>
+
+        <li><img src="/static/images/animals-6.jpeg" alt="animal-6" @click="imageUrl = '/src/static/images/animals-6.jpeg';"></li>
+
+        <li><img src="/static/images/animals-7.jpeg" alt="animal-7" @click="imageUrl = '/src/static/images/animals-7.jpeg';"></li>
+
+        <li><img src="/static/images/animals-8.jpeg" alt="animal-8" @click="imageUrl = '/src/static/images/animals-8.jpeg';"></li>
+
+        <li><img src="/static/images/animals-9.jpeg" alt="animal-9" @click="imageUrl = '/src/static/images/animals-9.jpeg';"></li>
+
+    </ul>
+
+    <div x-show="!!imageUrl" @click.away="imageUrl=null">
+        <img src="imageUrl" alt="">
+    </div>
+</div>
