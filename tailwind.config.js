@@ -15,10 +15,15 @@ module.exports = {
       }),
       colors: {
         'ma-color': '#D946EF',
+        'ma-big-color': '#D4234F',
       },
     },
     fontFamily: {
       'ma-popo': ['Helvetica', 'Arial', 'sans-serif'],
+    },
+    screens: {
+      'phone': '640px',
+      // => @media (min-width: 640px) { ... }
     },
     container: {
       center: true,
